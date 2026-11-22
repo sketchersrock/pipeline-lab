@@ -1,0 +1,8 @@
+[extend]
+useDefault = true
+
+[[rules]]
+id = "aws-access-key-id-lab"
+description = "AWS access key ID (including documentation example keys)"
+regex = '''\b((?:A3T[A-Z0-9]|AKIA|ASIA|ABIA|ACCA)[A-Z0-9]{16})\b'''
+keywords = ["akia", "asia", "abia", "acca", "a3t"]
